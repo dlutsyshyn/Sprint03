@@ -1,0 +1,64 @@
+.container {
+  margin: 50px auto;
+  width: 50%;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+}
+
+.add {
+  background-color: #65cecb;
+  color: #fff;
+}
+
+.text, .notes {
+  background-color: #f0f0f0;
+  padding: 50px 30px 30px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, p {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+textarea {
+  border: 3px solid #65cecb;
+  border-radius: 3px;
+  outline-color: #dc938f;
+  padding: 5px;
+}
+
+.notes-area {
+  width: 100%;
+  min-height: 10px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.output {
+  margin-bottom: 0;
+}

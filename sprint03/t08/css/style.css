@@ -1,0 +1,24 @@
+.sort {
+  padding: 15px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  float: right;
+}
+
+table {
+  border: 3px solid black;
+  margin: 0 auto;
+}
+
+tr th {
+  background-color: red;
+  padding: 20px;
+  cursor: pointer;
+  width: 50px;
+}
+
+td {
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+}
